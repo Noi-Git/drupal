@@ -1,0 +1,16 @@
+name: Fluffiness
+type: theme
+description: A cuddly theme that offers extra fluffiness.
+core: 8.x
+# Defines the base theme
+base theme: classy
+# Defines libraries group in which we can add css/js.
+libraries:
+  - fluffiness/global-styling
+# Regions
+regions:
+  header: Header
+  featured: Featured
+  content: Content #the content region is required
+  sidebar_first: First sidebar
+  footer: Footer
